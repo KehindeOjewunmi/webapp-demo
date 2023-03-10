@@ -4,7 +4,7 @@ trigger:
 - main
 - master
 
-# Set MyRunNumber
+# Set MyRunNumber details
 variables: 
   MyRunNumber: $(Date:yyyyMMdd)
   dateVar: $[format('{0:ddMMyyyy}', pipeline.startTime)] #format('{0:yyyyMMdd}', pipeline.startTime)
